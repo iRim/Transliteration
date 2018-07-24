@@ -1,0 +1,29 @@
+{
+    "name": "irim/yii2-transliteration",
+    "description": "Transliteration of Cyrillic characters into Latin and vice versa",
+    "type": "extension",
+    "keywords": ["yii2","extension","transliteration","rim"],
+    "license": "MIT",
+    "minimum-stability" : "stable",
+    "version":"1.0.0",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Rim",
+            "email": "rusenko.i@ya.ru",
+            "homepage": "https://rim.lv"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/iRim/text"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "irim\\Transliteration\\": ""
+        }
+    }
+}
