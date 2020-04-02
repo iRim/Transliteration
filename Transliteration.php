@@ -34,22 +34,3 @@ class Transliteration
 
     
 }
-
-
-/*
-
-function str2url($str,$lower=TRUE,$rus = TRUE,$symbol = '-') {
-    if($rus){$str = rus2translit($str);}
-    $str = preg_replace('/[^a-zа-яё0-9-_]+/u',$symbol,($lower?mb_strtolower($str,'UTF-8'):iconv('UTF-8','UTF-8',$str)));
-    $str = trim($str,$symbol);
-    return $str;
-}
-
-if (!empty($_SERVER["HTTP_REFERER"]) and preg_match('/https:\/\/((www|dev).servicebox.ru|servicebox.local)\//iu',$_SERVER["HTTP_REFERER"]) and !empty($_GET["word"]) and strlen($_GET["word"])>0) {
-    $str = str_replace("+", " ", $_GET["word"]);
-    $str = str_replace("\"", "", $str);
-    $str = str_replace("\\", "", $str);
-    print rus2translit($str);
-}
-
-*/
